@@ -23,7 +23,7 @@ namespace MVC
             //En caso de que el contexto no este configurado, lo configuramos mediante la cadena de conexion
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("data source = .; initial catalog = BDInventarioProduct; user id = sa; password = 12345;");
+                optionsBuilder.UseSqlServer("data source = .; initial catalog = BDInventario; user id = sa; password = 12345;");
             }
         }
         public virtual DbSet<Producto> Productos { get; set; }

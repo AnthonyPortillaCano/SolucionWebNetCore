@@ -2,7 +2,7 @@
 
 namespace MVC.Migrations
 {
-    public partial class prueba : Migration
+    public partial class Prueba : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
